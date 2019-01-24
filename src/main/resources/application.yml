@@ -1,0 +1,8 @@
+spring:
+    jmx.enabled: false
+stepExecution:
+    keys:
+        fileName: fileName # Unfortunately, name of this value is although documented, but not exposed anywhere, so hardcoding it here
+        lineNumbers: com.example.lineNumbers
+settings:
+    chunkSize: 100
