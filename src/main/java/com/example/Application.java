@@ -5,12 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import picocli.CommandLine.ParameterException;
 
+/**
+ * Main launcher class.
+ */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 public class Application {
-
-    private static class ValidParams {
-
-    }
 
     public static void main(String[] args) {
         try {

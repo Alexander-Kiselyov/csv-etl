@@ -13,3 +13,9 @@ Is pretty simple. Spring Batch was selected (as a compromise between simplicity,
 Basic input parameter validation was also implemented (see `com.example.CliValidation`) and executed before starting of a Spring app. Spring Boot was used as a main "backbone" framework and its autoconfiguration features were heavily utilized in order to reduce codebase. 
 Configuration was done in a Java-based way and almost fully encapsulated in `com.example.batch.BatchConfiguration`.
 Maven was selected as a build management system as one of the most popular on the market and familiar to me, as a developer, personally. No CI/CD tools for now.
+## Usage
+Prerequisites: Java 8.
+
+1. Install Maven.
+1. Build the project (`package` phase is sufficient, e.g. the following command: `mvn clean package`).
+1. Navigate to a `target` directory and launch the resulting JAR: `java -jar csv-etl-1.0.0.jar` - more usage instructions will follow.
